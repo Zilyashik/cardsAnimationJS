@@ -1,9 +1,11 @@
 # cardsAnimationJS
 
-<div>
+<div align = "center">
   Small but beautiful animation, using `JS`. After clicking on the picture, it enlarges. <br> In fact, this is a kind of photo album where you need to show several images. (For those who are interested: it says about the prefectures of Japan and this photo is from some prefectures)
   </div>
   
+ <hr>
+ 
 <div>
   <img src="https://user-images.githubusercontent.com/90646494/160601933-be76e530-7988-479e-b14d-1780df38fdbc.png">
   <img src="https://user-images.githubusercontent.com/90646494/160603816-49000b41-eae0-478a-a817-2ff2357ec163.png">
