@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Nunito:wght@300&family=Oooh+Baby&family=Questrial&family=Raleway:wght@300&family=Red+Hat+Mono:wght@600&family=Yuji+Boku&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Yuji Boku', serif;
+    margin: 0;
+    background-color: darkgray;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    padding: 0 20px;
+    margin-bottom: 170px;
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 300px;
+}
+
+p{
+    font-size: 30px;
+    margin: 0 35px 25px 35px;
+    text-align: center;
+}
+.slide{
+    height: 80vh;
+    border-radius: 20px;
+    margin: 10px;
+    cursor: pointer;
+    color: azure;
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    transition: all 500ms ease-in-out;
+}
+
+.slide h3{
+    position: absolute;
+    font-size: 30px;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    opacity: 0;
+}
+
+.slide.active{
+    flex: 10;
+}
+
+.slide.active h3{
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
+}
